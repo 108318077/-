@@ -1,14 +1,14 @@
-# -import pandas as pd
-import numpy as np
-from keras.models import Sequential
-from keras import optimizers
-from keras.layers import *
-from keras.callbacks import *
-from sklearn.preprocessing import *
-
-df_train = pd.read_csv('train-v3.csv') 
-df_valid = pd.read_csv('valid-v3.csv') 
-df_test = pd.read_csv('test-v3.csv')
+# -import pandas as pd<br>
+import numpy as np<br>
+from keras.models import Sequential<br>
+from keras import optimizers<br>
+from keras.layers import *<br>
+from keras.callbacks import *<br>
+from sklearn.preprocessing import *<br>
+<br>
+df_train = pd.read_csv('train-v3.csv') <br>
+df_valid = pd.read_csv('valid-v3.csv') <br>
+df_test = pd.read_csv('test-v3.csv')<br>
 
 data_title=['sale_yr','sale_month','sale_day','bedrooms','bathrooms','floors','bedrooms','bathrooms','sqft_living','sqft_lot','floors','waterfront','view','condition','grade','sqft_above','sqft_basement','yr_built','yr_renovated','zipcode','lat','long','sqft_living15','sqft_lot15']
 
